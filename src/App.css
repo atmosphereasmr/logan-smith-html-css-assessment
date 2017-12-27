@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.app-background {
+  background-image: url('./img/main-bg.jpeg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+}
+
+.resume-header-1 {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+}
+
+.resume-header-2 {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+}
+
+.shelves {
+  width: 50px;
+  height: 50px;
+  border: 3px white solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.resume-title {
+  font-size: 100px;
+  width: 100vw;
+  height: 300px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  line-height: 1px;
+  margin-top: 100px;
+}
+
+.resume-sub-title {
+  font-size: 50px;
+  position: relative;
+  bottom: 50px;
+}
+
+.arrow-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.75;
+  color: grey;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (min-width: 800px) {
+  .resume-header-2 {display: none}
+  .resume-header-1 {display: flex}
+}
+
+@media all and (max-width: 800px) {
+  .resume-header-1 {display: none}
+  .resume-header-2 {display: flex}
+}
